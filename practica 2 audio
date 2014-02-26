@@ -1,0 +1,91 @@
+<DOCTYPE>
+<HTML>
+<head> Itunes </head>
+
+<body>
+<br/> 
+<br/> 
+<title>  Practica 2</title>
+
+
+<table> 
+<tr>
+<td> Titulo</td>
+<td> Artista</td>
+<td> Reproducir</td>
+
+
+</tr>
+<td> The final cut</td>
+<td> Pink Floyd</td>
+<td> <audio src="The Final Cut.mp3" controls  loop>
+</audio></td>
+<tr>
+</tr>
+
+<tr>
+<td>Millones de mujerees </td>&nbsp;&nbsp;
+<td> Dread mar i</td>&nbsp;
+<td>  <audio src="04 Millones de mujeres.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>If i needed someone </td>&nbsp;&nbsp;
+<td> Kameleba</td>&nbsp;
+<td>  <audio src="06 If i needed someone.mp3" controls autoplay loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Hasta que te vuelva a ver </td>&nbsp;&nbsp;
+<td> La celestina </td>&nbsp;
+<td>  <audio src="12 Hasta que te vuelva a ver.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Nada de ti </td>&nbsp;&nbsp;
+<td> Dread mar i</td>&nbsp;
+<td>  <audio src="14 Nada de ti.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Con tanto amor </td>&nbsp;&nbsp;
+<td> Zona ganjah</td>&nbsp;
+<td>  <audio src="Con tanto amor.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Solo tu </td>&nbsp;&nbsp;
+<td> Los aldeanos</td>&nbsp;
+<td>  <audio src="Solo tu.mp3" controls loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>El hoy </td>&nbsp;&nbsp;
+<td> Kameleba</td>&nbsp;
+<td>  <audio src="05 El Hoy.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Embotellado </td>&nbsp;&nbsp;
+<td> C kan</td>&nbsp;
+<td>  <audio src="Embotellado  ft Don Kalavera.mp3" controls  loop>
+</audio></td>
+</tr>
+
+<tr>
+<td>Millones de mujerees </td>&nbsp;&nbsp;
+<td> Dread mar i</td>&nbsp;
+<td>  <audio src="04 Millones de mujeres.mp3" controls  loop>
+</audio></td>
+</tr>
+
+
+                         
+</table>
