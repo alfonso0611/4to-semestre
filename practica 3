@@ -1,0 +1,219 @@
+<DOCTYPE>
+<HTML>
+
+<head> 
+<style>
+body {color:cyan;background-color: black;}
+</style>
+</head> 
+
+
+<br/> 
+<body>
+
+<form>
+  <fieldset>
+    <legend>Datos Personales:</legend>
+<form> <label> Nombre </label>
+<br/> 
+<textarea name ="observaciones" rows="1" cols="20">
+
+</textarea>
+</form>
+<form> <label> Apellido paterno </label>
+<br/> 
+<textarea name ="observaciones" rows="1" cols="20">
+
+</textarea>
+</form>
+<form> <label>Apellido materno </label>
+<br/> 
+
+<textarea name ="observaciones" rows="1" cols="20">
+
+</textarea>
+</form>
+ 
+
+
+<br/> 
+
+<form>
+<label> dia </label>
+<select name= "color" >
+<option value ="1">1</option>
+<option value ="2">2</option>
+<option value ="3">3</option>
+<option value ="4">4</option>
+<option value ="5">5</option>
+<option value ="6">6</option>
+<option value ="7">7</option>
+<option value ="8">8</option>
+<option value ="9">9</option>
+<option value ="10">10</option>
+<option value ="11">11</option>
+<option value ="12">12</option>
+<option value ="13">13</option>
+<option value ="14">14</option>
+<option value ="15">15</option>
+<option value ="16">16</option>
+<option value ="17">17</option>
+<option value ="18">18</option>
+<option value ="19">19</option>
+<option value ="20">20</option>
+<option value ="21">21</option>
+<option value ="22">22</option>
+<option value ="23">23</option>
+<option value ="24"> 24 </option>
+<option value ="25"> 25 </option>
+<option value ="26"> 26 </option>
+<option value ="27"> 27 </option>
+<option value ="28"> 28 </option>
+<option value ="29"> 29 </option>
+<option value ="30"> 30 </option>
+
+
+</select>
+
+
+
+<label> mes </label>
+<select name= "mes" >
+
+<option value ="1"> Enero </option>
+<option value ="2"> Febrero </option>
+<option value ="3"> Marzo </option>
+<option value ="4">Abril</option>
+<option value ="5">Mayo</option>
+<option value ="6">Junio</option>
+<option value ="7">Julio</option>
+<option value ="8">Agosto</option>
+<option value ="9">Septiembre</option>
+<option value ="10">Octubre</option>
+<option value ="11">Noviembre</option>
+<option value ="0"> Diciembre</option>
+
+
+</select>
+
+
+
+<label> Año </label>
+<select name= "Año" >
+<option value ="0"> 1990</option>
+<option value ="1"> 1993 </option>
+<option value ="2"> 2000 </option>
+
+</select>
+</form>
+
+<br/> 
+
+<form>
+<input type ="radio"name="sexo" value ="1"
+id="sexo 1"
+<label for = "sexo1" >Masculino </label><br/>
+<input type="radio" name="sexo" value = "2"
+id="sexo 2">
+<label for ="sexo2"> Femenino </label><br/>
+
+
+
+
+</form>
+
+<br/> 
+Foto: <input type="file" name="img">
+
+</fieldset>
+</form>
+<td>Solo tu </td>&nbsp;&nbsp;
+<td> Los aldeanos</td>&nbsp;
+<td>  <audio src="Solo tu.mp3" autoplay controls loop none>
+</audio></td>
+
+
+
+<br/> 
+<br/> 
+<br/> 
+
+<form>
+  <fieldset>
+  <form> <label>Codigo </label>
+<br/> 
+<textarea name ="Codigo" rows="1" cols="20">
+
+</textarea>
+</form>
+<form> <label> Password </label>
+<br/> 
+<textarea name ="password" rows="1" cols="20">
+
+</textarea>
+</form>
+
+  </fieldset>
+</form>
+
+<br/> 
+<br/> 
+
+<form>
+  <fieldset>
+  <form> <label>Domicilio </label>
+<br/> 
+<textarea name ="Domicilio" rows="1" cols="20">
+
+</textarea>
+</form>
+<form> <label> Colonia </label>
+<br/> 
+<textarea name ="Colonia" rows="1" cols="20">
+
+</textarea>
+</form>
+<form> <label> Telefono </label>
+<br/> 
+<textarea name ="Telefono" rows="1" cols="20">
+
+</textarea>
+</form>
+
+ 
+<br/>
+<br/>
+
+<form>
+<input type ="checkbox"name="actividad" value ="1"
+id="actividad 1"
+<label for = "actividad1" >Deportes </label><br/>
+<input type ="checkbox"name="actividad" value ="1"
+id="actividad 2"
+<label for = "actividad2" >Ciencia </label><br/>
+<input type ="checkbox"name="actividad" value ="1"
+id="actividad 3"
+<label for = "actividad3" >Educacion </label><br/>
+<input type ="checkbox"name="actividad" value ="1"
+id="actividad 4"
+<label for = "actividad4" >Musica </label><br/>
+<input type ="checkbox"name="actividad" value ="1"
+id="actividad 5"
+<label for = "materia1" >Otro </label><br/>
+</form>
+</fieldset>
+</form>
+<br/>
+<br/>
+
+<input type ="submit" value ="Cancelar">
+
+<input type ="button"
+value = "Enviar"
+onclick ="alert('Informacion enviada !!');"
+>
+
+
+
+</HTML>
+</body>
