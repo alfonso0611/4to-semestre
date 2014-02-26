@@ -1,0 +1,45 @@
+<DOCTYPE>
+<HTML>
+<head> Windows media </head>
+
+<body>
+<br/> 
+<br/> 
+<title>  Practica 2</title>
+
+
+<table> 
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+
+</tr>
+
+<td> <video src="elastica ronaldinho.mp4" controls  loop>
+</video></td>
+<td> <video src="elastica ronaldinho.mp4" controls  loop>
+</video></td>
+<tr>
+</tr>
+
+<tr>
+
+<td> <video src="elastica ronaldinho.mp4" controls  loop>
+</video></td>
+<td> <video src="VID-20140212-WA0007.mp4" controls  loop>
+</video></td>
+</tr>
+
+<tr>
+
+<td> <video src="elastica ronaldinho.mp4" controls  loop>
+</video></td>
+<td> <video src="elastica ronaldinho.mp4" controls  loop>
+</video></td>
+</tr>
+
+
+</table>
+</body>
+</HTML>
