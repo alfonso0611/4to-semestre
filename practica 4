@@ -1,0 +1,67 @@
+?>
+
+<html>
+<body>
+
+<?php
+$precio1= 1000;
+$precio2= 5600;
+$precio3= 6700;
+$precio4= 7500;
+$precio5= 1760;
+$precio6= 150;
+?>
+
+
+<table>
+<tr>
+
+<td> Pantalla</td>
+<td><?php echo $precio1;?></td>
+</tr>
+
+<tr>
+<td> Refrigerador</td>
+
+<td><?php echo $precio2;?></td>
+</tr>
+
+
+<tr>
+<td> Cama</td>
+<td><?php echo $precio3;?></td>
+</tr>
+
+
+<tr>
+<td> Carro</td>
+<td><?php echo $precio4;?></td>
+</tr>
+
+<tr>
+<td> Xbox</td>
+<td><?php echo $precio5;?></td>
+</tr>
+
+<tr>
+<td> Subtotal</td>
+<td><?php echo $r=$precio1 + $precio2 +$precio3 +$precio4 +$precio5 ;?></td>
+</tr>
+
+<tr>
+<td> subtotal + IVA</td>
+<td><?php echo $r * 16/100;?></td>
+</tr>
+
+<tr>
+<td> Total + IVA</td>
+<td><?php echo $r * 16/100;?></td>
+</tr>
+
+
+
+
+</table>
+</body>
+
+<?php
