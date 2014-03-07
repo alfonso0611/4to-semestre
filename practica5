@@ -1,0 +1,32 @@
+<?php
+echo "<ul>";
+$a=1;
+for($i=1; $i<10; $i++){
+
+
+for($e=1; $e<10; $e++){
+$a++;
+echo "<li>Elemento".$a."</li>";
+}
+}
+
+
+echo"<ul>";
+
+
+
+echo"
+<table> 
+";
+$a=1;
+for($i=1; $i<=10; $i++){
+echo"<tr style='background-color:".($a%2 != 0 ? "red" : "green").";'>";
+for($e=1; $e<=10; $e++){
+echo"<td>".($a++);
+
+
+echo"</td>";
+}
+echo"</tr>";
+}
+echo "</table>";
