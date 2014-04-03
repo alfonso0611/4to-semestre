@@ -1,0 +1,48 @@
+<html>
+<body>
+
+<form method= "POST" action="inicio.php">
+<label for="usuario"> Usuario </label><br/>
+<input type="text" size="10" maxlength="10" id="usuario" name="usuario"><br/>
+<label for="password"> Password </label><br/>
+<input type="password" size="10" maxlength="10" id="password" name="password"><br/>
+<input type="submit" value="Iniciar">
+
+</body>
+</html>
+
+
+
+
+
+<html>
+<body>
+
+<?php
+session_start();
+if($_session["usuario"]=="root" && $_session["password"]=="admin")
+$_session["usuario"]="root";
+if(isset($_session["usuario"]=="root") )){
+echo "Bienvenido" .$_POST['usuario'];
+?>
+
+<form action="cerrar.php">
+<label for="cerrar"> Cerrar </label><br/>
+<input type="submit" value="Cerrar">
+</form>
+
+<?php
+}else{
+header("location:sesion.php");
+}
+?>
+</body>
+</html>
+
+
+
+
+<?php
+session_destroy();
+header("location:sesion.php");
+?>
